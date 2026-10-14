@@ -3,15 +3,15 @@ layout: null
 ---
 <!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Notizie e ricerca | Smith-Magenis Oggi</title><meta name="description" content="Informazione scientifica indipendente sulla sindrome di Smith-Magenis.">
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"></head><body>
-<header class="site-header"><div class="wrap nav"><a class="brand" href="{{ '/' | relative_url }}"><img class="brand-logo" src="{{ '/assets/img/smith-magenis-italia-logo.png' | relative_url }}" alt="Logo Smith Magenis Italia"><span class="brand-text"><span class="brand-name">Smith-Magenis Oggi</span><span class="brand-sub">Con il supporto di Smith Magenis Italia</span></span></a>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=20261014-2"></head><body>
+<header class="site-header"><div class="wrap nav"><a class="brand" href="{{ '/' | relative_url }}"><img class="brand-logo" src="{{ '/assets/img/smith-magenis-italia-logo.png' | relative_url }}" alt="Logo Smith Magenis Italia" width="115" height="64" style="width:115px;height:64px;max-width:115px;max-height:64px;object-fit:contain"><span class="brand-text"><span class="brand-name">Smith-Magenis Oggi</span><span class="brand-sub">Con il supporto di Smith Magenis Italia</span></span></a>
 <nav class="nav-links"><a href="{{ '/' | relative_url }}#notizie">Notizie</a><a href="{{ '/chi-siamo.html' | relative_url }}">Il progetto</a><a href="{{ '/avvertenze.html' | relative_url }}">Avvertenze</a></nav></div></header>
 <section class="hero"><div class="wrap hero-grid"><div><span class="eyebrow">Osservatorio scientifico · Sindrome di Smith-Magenis</span>
 <h1>Capire la Smith-Magenis, una scoperta alla volta.</h1>
 <p>Ricerche, aggiornamenti e informazioni sulla sindrome di Smith-Magenis, sul gene RAI1 e sulle esigenze delle persone e delle famiglie, raccontati in modo chiaro e con le fonti.</p>
 <div class="hero-actions"><a class="button" href="#notizie">Leggi gli aggiornamenti</a>
 <a class="button secondary" href="{{ '/chi-siamo.html' | relative_url }}">Come lavoriamo</a></div></div>
-<aside class="hero-brand-card"><img src="{{ '/assets/img/smith-magenis-italia-logo.png' | relative_url }}" alt="Logo Smith Magenis Italia"><strong>Smith Magenis Italia</strong><p>Il sito riprende il logo e i colori dell'associazione per offrire un'identità visiva più riconoscibile e vicina alle famiglie.</p></aside></div></section>
+</div></section>
 <main><section id="notizie"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Ricerca e approfondimenti</span><h2>Ultime notizie</h2></div><p>Ogni contenuto riporta la fonte e il livello delle evidenze disponibili.</p></div>
 <div class="search-box" role="search"><label for="site-search">Cerca nelle notizie</label>
 <div class="search-row"><input type="search" id="site-search" placeholder="Es. sonno, RAI1, comportamento, ricerca…" autocomplete="off"><button id="clear-search" hidden type="button">Cancella</button></div>
@@ -38,4 +38,4 @@ const input=document.getElementById('site-search'),cards=[...document.querySelec
 function filter(){const q=input.value.trim().toLocaleLowerCase('it');let count=0;for(const c of cards){const show=(c.dataset.search+' '+c.innerText).toLocaleLowerCase('it').includes(q);c.hidden=!show;if(show)count++}clear.hidden=!q;status.textContent=q?count+' risultati trovati':'Cerca per titolo, argomento o riassunto.';}
 input.addEventListener('input',filter);clear.addEventListener('click',()=>{input.value='';filter();input.focus()});
 </script>
-<footer class="site-footer"><div class="wrap footer-brand"><img src="{{ '/assets/img/smith-magenis-italia-logo.png' | relative_url }}" alt="Logo Smith Magenis Italia"><div class="footer-brand-text"><strong>Smith-Magenis Oggi</strong><div>Informazione indipendente sulla sindrome di Smith-Magenis.</div><div class="support">Realizzato e gestito da I Custodi del DNA, con il supporto dell'Associazione Smith Magenis Italia.</div></div></div></footer></body></html>
+<footer class="site-footer"><div class="wrap footer-brand"><div class="footer-brand-text"><strong>Smith-Magenis Oggi</strong><div>Informazione indipendente sulla sindrome di Smith-Magenis.</div><div class="support">Realizzato e gestito da I Custodi del DNA, con il supporto dell'Associazione Smith Magenis Italia.</div></div></div></footer></body></html>
