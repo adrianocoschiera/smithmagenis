@@ -19,3 +19,7 @@ Non eliminare i file originali.
 Il repository è stato rilevato come **privato**. Verificare le condizioni del proprio piano GitHub,
 la configurazione Pages, il dominio personalizzato e i record DNS.
 La presenza del file CNAME non garantisce che il sito sia online.
+
+
+## Branding
+Il sito usa il logo fornito da Smith Magenis Italia e una palette derivata dai colori del marchio (verde, arancione, fucsia, azzurro e grigio).
