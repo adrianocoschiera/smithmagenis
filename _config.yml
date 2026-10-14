@@ -1,0 +1,12 @@
+title: "Smith-Magenis Oggi"
+description: "Notizie, studi e approfondimenti sulla sindrome di Smith-Magenis"
+lang: it
+url: "https://www.sindromedismithmagenis.it"
+baseurl: ""
+permalink: /articoli/:title.html
+collections:
+  articoli:
+    output: true
+    permalink: /articoli/:name.html
+exclude:
+  - README.md
